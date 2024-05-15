@@ -1,0 +1,16 @@
+{
+  "CODE.TEMPLATES": "代码模版",
+  "CODE.TEMPLATES.CARD": "卡片",
+  "CODE.TEMPLATES.TABLE": "表格",
+  "CODE.TEMPLATES.TWO.COL": "两列",
+  "HOME": "首页",
+  "LOGIN": "登录",
+  "SIGN.UP": "注册",
+  "ERROR.PAGES": "错误页面",
+  "MULTI.LEVEL.MENUS": "多级菜单",
+  "SYSTEM.MANAGEMENT": "系统管理",
+  "DICTIONARY.MANAGEMENT": "字典管理",
+  "DICTIONARY.DATA": "字典数据",
+  "RESOURCES.MANAGEMENT": "资源管理",
+  "LOCALES.MANAGEMENT": "翻译管理"
+}

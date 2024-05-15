@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="An open-source, lightweight, elegant, support i18n back-end management template based on React + TypeScript + Vite + antd + TailwindCSS."
+    />
+    <meta
+      name="keywords"
+      content="React, Vite, antd, TypeScript, TailwindCSS, Admin, Dolphin Admin"
+    />
+    <meta
+      name="author"
+      content="Bruce Song"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/favicon.ico"
+    />
+    <title>Dolphin Admin React</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script
+      type="module"
+      src="/src/main.tsx"
+    ></script>
+    <script type="module">
+      import { TimeUtils } from '@dolphin-admin/utils'
+      import { commitMessage, committer, committerDate } from '~build/git'
+      ;(function () {
+        console.log(
+          `%c${'提交者：' + committer}\n${'提交信息：' + commitMessage}\n${
+            '提交时间：' + TimeUtils.formatTime(committerDate)
+          }`,
+          'color: #fff; background-color: #007acc; padding: 2px 4px; border-radius: 2px;'
+        )
+      })()
+    </script>
+  </body>
+</html>

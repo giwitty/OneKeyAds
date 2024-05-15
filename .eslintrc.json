@@ -1,0 +1,7 @@
+{
+  "extends": "@bit-ocean/eslint-config/react",
+  "rules": {
+    "react/require-default-props": "off",
+    "import/no-cycle": "off"
+  }
+}
